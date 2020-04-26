@@ -1,5 +1,9 @@
 #lang web-server/insta
 
+#|
+    Source: https://docs.racket-lang.org/continue/
+ |#
+
 ; a blog is a (listof post)
 ; and a post is a (post title body)
 (struct post (title body))
